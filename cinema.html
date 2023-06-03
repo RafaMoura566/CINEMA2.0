@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">	
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INGRESSOS PARA CINEMA</title>
+  <link rel="stylesheet" href="cinema.css">
+  
+</head>
+<body>
+  <h1>Filmes em cartaz
+	<p class="subt">Ingressos online</p>
+  </h1>
+  	<h2>Toy Story</h2>
+		<h3>	
+			<button onclick="selecionarPoltrona('toy_story_13')">13:00</button>
+			<button onclick="selecionarPoltrona('toy_story_14')">15:30</button>
+			<button onclick="selecionarPoltrona('toy_story_15')">18:00</button>
+		</h3>
+
+		<p>
+			<table>
+				<tr>
+					<td>
+						<img src="toystory.jpeg" alt="" width="240" height="360">
+					</td>
+		</p>
+		<p>
+					<td>
+						O aniversário do garoto Andy está chegando e seus brinquedos ficam nervosos, temendo que ele ganhe novos brinquedos que possam substituí-los. Liderados pelo caubói Woody, o brinquedo predileto de Andy, eles recebem Buzz Lightyear, o boneco de um patrulheiro espacial, que logo passa a receber mais atenção do garoto. Com ciúmes, Woody tenta ensiná-lo uma lição, mas Buzz cai pela janela. É o início da aventura do caubói, que precisa resgatar Buzz para limpar sua barra com os outros brinquedos.
+						<a class="treiler" href="https://www.youtube.com/watch?v=_8vw4UikKhg">TREILER DO FILME</a>
+					</td>
+				</tr>
+				</table>
+		</p>
+	
+<br>
+<br>
+	
+			<h2>Coração Valente</h2>
+			<h3>
+				<button onclick="selecionarPoltrona('coracao_valente_16')">14:15</button>
+				<button onclick="selecionarPoltrona('coracao_valente_17')">16:45</button>
+				<button onclick="selecionarPoltrona('coracao_valente_18')">19:00</button>
+			</h3>
+
+		<p>
+			<table>
+				<tr>
+					<td>
+						<img src="coracaovalente.jpeg" alt="" width="240" height="360">
+					</td>
+		</p>
+		<p>
+					<td>
+						A história de um herói escocês do século 13, chamado William Wallace, que lidera seus conterrâneos contra o monarca inglês Edward I, após ter sofrido uma tragédia pessoal causada pelos soldados ingleses. O exército amador de Wallace foi maior que o exército da Inglaterra.
+						<a class="treiler" href="https://www.youtube.com/embed/VmPbKj3uekE">TREILER DO FILME</a>
+					</td>
+				</tr>
+				</table>
+		</p>
+	<br>
+	<br>
+
+			<h2>O Poderoso Chefão</h2>
+			<h3>
+				<button onclick="selecionarPoltrona('poderoso_chefao_19')">15:00</button>
+				<button onclick="selecionarPoltrona('poderoso_chefao_20')">18:00</button>
+				<button onclick="selecionarPoltrona('poderoso_chefao_21')">21:00</button>
+			</h3>
+
+	<p>
+		<table>
+			<tr>
+				<td>
+					<img src="poderosochefao.jpeg" alt="" width="240" height="360" >
+				</td>
+	</p>
+	<p>
+				<td>
+					Uma família mafiosa luta para estabelecer sua supremacia nos Estados Unidos depois da Segunda Guerra Mundial. Uma tentativa de assassinato deixa o chefão Vito Corleone incapacitado e força os filhos Michael e Sonny a assumir os negócios.
+					<a class="treiler" href="https://www.youtube.com/embed/VmPbKj3uekE">TREILER DO FILME</a>
+				</td>
+			</tr>
+			</table>
+	</p>
+	<script>
+		function selecionarPoltrona(sessao) {
+			// Redirecionar para a página de seleção de poltrona para a sessão selecionada
+			window.location.href = "poltrona.html?sessao=" + sessao;
+		}
+	</script>
+</body>
+</html>
